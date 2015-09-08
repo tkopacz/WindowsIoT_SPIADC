@@ -194,3 +194,4 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+/RPI2_SPI_MCP3002_Potencjometr/RPI2_SPI_MCP3002_Potencjometr/project.lock.json
