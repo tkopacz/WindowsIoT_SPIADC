@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="Black">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock x:Name="uxBytes" HorizontalAlignment="Left" Margin="37,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1846" FontFamily="Courier New" FontSize="64" Height="69" TextAlignment="Left" Text="tu odczyt ADC" Foreground="White"/>
         <ProgressBar x:Name="uxChannel0" HorizontalAlignment="Left" Height="32" Margin="37,249,0,0" VerticalAlignment="Top" Width="545" Maximum="1024" Background="#202020"/>
         <ProgressBar x:Name="uxChannel1" HorizontalAlignment="Left" Height="32" Margin="37,212,0,0" VerticalAlignment="Top" Width="545" Maximum="1024" Background="#303030"/>
